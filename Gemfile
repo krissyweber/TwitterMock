@@ -39,6 +39,7 @@ gem 'simple_form', '~> 5.2'
 gem 'gravatar_image_tag', '~> 1.2'
 gem 'devise', '~> 4.9', '>= 4.9.2'
 
+
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
@@ -65,6 +66,7 @@ group :development do
   gem 'better_errors', '~> 2.10', '>= 2.10.1'
   gem 'guard', '~> 2.18', '>= 2.18.1'
   gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
+  gem 'binding_of_caller'
 
 end
 
