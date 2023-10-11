@@ -34,6 +34,10 @@ gem "jbuilder"
 
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
+gem 'bulma-rails', '~> 0.9.4'
+gem 'simple_form', '~> 5.2'
+gem 'gravatar_image_tag', '~> 1.2'
+gem 'devise', '~> 4.9', '>= 4.9.2'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
@@ -58,6 +62,9 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'better_errors', '~> 2.10', '>= 2.10.1'
+  gem 'guard', '~> 2.18', '>= 2.18.1'
+  gem 'guard-livereload', '~> 2.5', '>= 2.5.2', require: false
 
 end
 
